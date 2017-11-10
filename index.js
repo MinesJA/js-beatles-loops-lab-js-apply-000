@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function theBeatlesPlay(musicians, instruments){
   var array = [];
 
@@ -29,4 +30,17 @@ function iLoveTheBeatles(number){
 
   } while(numer < 15)
   return array;
+=======
+
+function theBeatlesPlay(musicians, instruments){
+  var array = []
+
+  for(let i = 0; i < musicians.length; i++){
+
+    array.push(`${musicians[i]} plays ${instruments[i]}`)
+  }
+
+  return array
+
+>>>>>>> d531c23e88a56ebf6fc3bda9dba97962768fb257
 }
